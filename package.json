@@ -1,0 +1,28 @@
+{
+  "name": "curp-scraper",
+  "version": "1.0.0",
+  "description": "Scraper that extract CURP details of RENAPO page (Mexico).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valdezmanuel/curp-scraper.git"
+  },
+  "keywords": [
+    "scraper",
+    "nodejs",
+    "curp",
+    "renapo"
+  ],
+  "author": "@valdezmanuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valdezmanuel/curp-scraper/issues"
+  },
+  "homepage": "https://github.com/valdezmanuel/curp-scraper#readme",
+  "directories": {
+    "example": "example"
+  }
+}
