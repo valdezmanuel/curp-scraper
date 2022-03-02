@@ -1,5 +1,5 @@
 # curp-scraper
-Scraper for RENAPO web page to extract CURP details.
+Scraper that extract CURP details of RENAPO page (Mexico).
 
 # Installation
 To use the scraper in your own nodejs projects:
