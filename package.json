@@ -1,7 +1,7 @@
 {
   "name": "curp-scraper",
   "version": "1.0.0",
-  "description": "Scraper that extract CURP details of RENAPO page (Mexico).",
+  "description": "Scraper that extract CURP details from RENAPO page (Mexico).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"No test specified\""
