@@ -1,5 +1,5 @@
 # curp-scraper
-Scraper that extract CURP details of RENAPO page (Mexico).
+Scraper that extract CURP details from RENAPO page (Mexico).
 
 # Installation
 To use the scraper in your own nodejs projects:
@@ -11,14 +11,13 @@ $ npm install curp-scraper
 ```
     const curpScraper = require('curp-scraper');
 
-    curpScraper.getCurpDetails('REPLACE THIS WITH A VALID CURP', (error, response) => {
+    curpScraper.getCurpDetails('VALID CURP', (error, response) => {
         if (error) {
             console.log("error", error);
         } else {
             console.log("response", response);
-            // resonse in the following format
             /**
-            *  {
+            *  response: {
             *    Apellido1: 'TEST',
             *    Apellido2: 'TEST',
             *    CRIP: '',
